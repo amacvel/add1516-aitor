@@ -7,7 +7,7 @@
 
 - ¿Qué son los clientes ligeros?
 
-    Es un ordenador cliente o un software de cliente en una arquitectura de red cliente-            servidor que depende primariamente del servidor central para las tareas de procesamiento, y se enfoca principalmente en transportar la entrada y la salida entre el usuario y el servidor remoto. En contraste, un cliente pesado realiza tanto procesamiento como sea posible y transmite solamente los datos para las comunicaciones y el almacenamiento al servidor. 
+    Es un ordenador cliente o un software de cliente en una arquitectura de red cliente-servidor que depende primariamente del servidor central para las tareas de procesamiento, y se enfoca principalmente en transportar la entrada y la salida entre el usuario y el servidor remoto. En contraste, un cliente pesado realiza tanto procesamiento como sea posible y transmite solamente los datos para las comunicaciones y el almacenamiento al servidor. 
 
 
 #2. Servidor LTSP
