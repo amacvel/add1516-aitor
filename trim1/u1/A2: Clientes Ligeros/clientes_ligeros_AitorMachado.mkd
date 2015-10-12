@@ -43,8 +43,8 @@ La MV del servidor necesitará dos interfaces de red, una interfaz externa:
     
         ![](./hostname-a.png)
     
-     - *hostname -f*
-    
+    - *hostname -f*
+      
         ![](./hostname-f.png)
     
     - *uname -a*
