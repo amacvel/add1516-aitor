@@ -140,7 +140,7 @@ Información sobre TS:
     
     - *Seleccionamos grupos de usuarios con acceso a Terminal Server*
      
-        ![](./25.png)
+        ![](./25.PNG)
     
     - *Confirmamos selecciones de instalación* 
     
