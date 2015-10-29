@@ -1,6 +1,6 @@
-<center>***Aitor Domingo Machado Velázquez***</center>
-<center>***Gregorio Adrián Quintero Álvarez***</center>
-<center>***2º ASIR***</center>
+***Aitor Domingo Machado Velázquez***
+***Gregorio Adrián Quintero Álvarez***
+***2º ASIR***
 
 <center>![](./logo_centro.png)</center>
 
@@ -58,11 +58,11 @@ Capturaremos imagenes probando las conexiones remotas VNC, y ejecutando el coman
      - Lo primero que debemos hacer para comprobar la conexión es descargarnos el vinagre mediante la consola de comandos.
       ![](./10.png)
          
-          - *La conexión ha sido efectuada*
+       - La conexión ha sido efectuada
          ![](./12.png)
          
 - Acceder a Linux - desde Windows
-    - *La conexión ha sido efectuada*
+   - La conexión ha sido efectuada
     
         ![](./13.png)
       
@@ -144,11 +144,11 @@ Información sobre TS:
     
     - *Confirmamos selecciones de instalación* 
     
-        ![](./26.png)
+        ![](./26.PNG)
     
     - *Resultados de la instalación* 
     
-        ![](./27.png)
+        ![](./27.PNG)
     
     
 ##3.2 Configurar y probar conexiones al terminal server
@@ -158,26 +158,26 @@ Creamos los siguientes usuarios locales:
 - Abrir Administrador de. servidor -> Configuración -> Usuarios locales y grupos.
     
 - Crear varios usuarios. Por ejemplo, usar los nombres en minúsculas de los miembros del grupo.
-![](./28.png)
+![](./28.PNG)
 
 - Añadir usuarios al grupo de acceso remoto.
 
-    ![](./29.png)
+    ![](./29.PNG)
 
 - Seleccionamos avanzadas en el pantalla anterior y le damos a buscar. Esto nos dará la opción de entre los resultados de la búsqueda seleccionar ---> **''Usuarios de escritorio remoto''**. 
-![](./30.png)
+![](./30.PNG)
 
 - Comprobamos finalmente mediante que los usuarios están correctamente añadidos mediante Panel de control --> Sistema --> configuración de acceso remoto --> seleccionar usuarios.
-![](./31.png)
+![](./31.PNG)
 
 - Capturaremos imagenes probando las conexiones remotas, y ejecutando el comando netstat -ntap en cada caso, para verificar que se han establecido las conexiones remotas:
 
 - Probar la conexión remota de escritorio RDP, desde el cliente Windows hacia el servidor Windows Server.
-![](./32.png)
+![](./32.PNG)
 
 - Probar la conexión remota de escritorio RDP, desde el cliente Linux hacia el servidor Windows Server.
 - Ambas conexiones de escritorio remoto deben estar funcionando simultáneamente.
-![](./33.png)
+![](./33.PNG)
         
 #4. Aplicaciones remotas mediante RemoteApp
 
@@ -187,18 +187,18 @@ Realizar las siguientes tareas sólo con servidor Windows 2008 server y cliente 
 - Instalar una aplicación en Windows Server que no esté en Windows7, por ejemplo Geany.
 
 - Para crear agregar el programa nos vamos a Administrador de RemoteAPP y en la parte derecha le damos a agregar programas para remoteAPP.
-![](./34.png)
+![](./34.PNG)
 
 - Elegimos el programa que deseamos agregar a la lista de remote APP.
-![](./35.png)
+![](./35.PNG)
     
 - Revisamos la configuración.
 
-    ![](./36.png)
+    ![](./36.PNG)
 
 - Para comprobar que se ha añadido dicho programa sólo tenemos que mirar en la parte inferior izquierda en el recuadrito ''Programas RemoteApp''.
 
-    ![](./37.png)
+    ![](./37.PNG)
         
 - La idea de RemoteApp es tener una aplicación instalada en el Windows Server pero que pueda ejecutarse desde el Windows7. Hay tres formas de implementar el RemoteApp:        
         
@@ -209,25 +209,25 @@ Realizar las siguientes tareas sólo con servidor Windows 2008 server y cliente 
     - Creando un archivo de conexión remota .rdp. Vamos a usar este último método.
     
     - Para crear dicho archivo nos vamos a Administrador de RemoteAPP y en la parte derecha le damos a crear archivo .rpd. Nos saldrá el asistente así que seguimos los pasos.
-![](./38.png)
+![](./38.PNG)
 
     - Especificamos la configuración del paquete.
-![](./39.png) 
+![](./39.PNG) 
     
     - Revisamos la configuración.
     
-        ![](./40.png) 
+        ![](./40.PNG) 
 
     - Finalmente nos vamos a la ruta configurada anteriormente para ver si allí se encuentra el archivo.
-![](./41.png) 
+![](./41.PNG) 
 
 - Probamos la aplicación desde el cliente y comprobamos el funcionamiento.
 
-    ![](./42.png) 
+    ![](./42.PNG) 
 
 - Seleccionamos dicho archivo y nos pregunta que si deseamos conectarnos para ejecutar el programa de todos modos y le damos que si.
-![](./43.png) 
+![](./43.PNG) 
 
 - Nos pedirá un usuario y contraseña. Lo introducimos y ya tenemos el geany funcionando.
-![](./44.png) 
-![](./45.png) 
+![](./44.PNG) 
+![](./45.PNG) 
