@@ -1,5 +1,4 @@
-***Aitor Domingo Machado Velázquez***
-***Gregorio Adrián Quintero Álvarez***
+***Aitor Domingo Machado Velázquez*** - ***Gregorio Adrián Quintero Álvarez*** -
 ***2º ASIR***
 
 <center>![](./logo_centro.png)</center>
@@ -228,6 +227,6 @@ Realizar las siguientes tareas sólo con servidor Windows 2008 server y cliente 
 - Seleccionamos dicho archivo y nos pregunta que si deseamos conectarnos para ejecutar el programa de todos modos y le damos que si.
 ![](./43.PNG) 
 
-- Nos pedirá un usuario y contraseña. Lo introducimos y ya tenemos el geany funcionando.
+- Nos pedirá un usuario y contraseña. Lo introducimos y ya tenemos el geany funcionando correctamente.
 ![](./44.PNG) 
 ![](./45.PNG) 
