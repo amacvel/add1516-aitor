@@ -103,6 +103,7 @@ Capturar imágenes del proceso.
 
 * Vamos a hacer una copia de seguridad del fichero de configuración existente 
 `cp /etc/samba/smb.conf /etc/samba/smb.conf.000`.
+
 ![](./19.png)
 * Vamos a configurar el servidor Samba con las siguientes opciones. Podemos usar Yast o 
 modificar directamente el fichero de configuración:
