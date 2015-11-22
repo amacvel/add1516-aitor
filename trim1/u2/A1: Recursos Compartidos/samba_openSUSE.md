@@ -64,7 +64,8 @@ Capturar imágenes del resultado final.
 * Crear el usuario `smbguest`. Para asegurarnos que nadie puede usar `smbguest` para 
 entrar en nuestra máquina mediante login, vamos a modificar en el fichero `/etc/passwd` de la 
 siguiente manera: "smbguest: x :1001:1001:,,,:/home/smbguest:**/bin/false**".
-![](./14.png)
+
+   ![](./14.png)
 
 * Crear el grupo `starwars`, y dentro de este poner a todos los `siths`, `jedis`, `supersamba` y a `smbguest`.
 ![](./15.png)
