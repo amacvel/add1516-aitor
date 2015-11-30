@@ -1,4 +1,0 @@
-geany:install
-wine:remove
-php5:r
-gedit:i
