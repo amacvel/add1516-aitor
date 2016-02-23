@@ -1,0 +1,3 @@
+Vagrant.configure(2) do |config|
+config.vm.box = "micaja18_ubuntu_precise32"
+end
