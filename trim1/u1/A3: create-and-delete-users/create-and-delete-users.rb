@@ -29,8 +29,8 @@ filas.each do |linea|
                 puts "Se ha eliminado el usuario #{posicion[0]}"
             end
             
-		end
-		
 	end
 	
+    end
+    
 end
