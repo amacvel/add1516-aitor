@@ -24,13 +24,10 @@ filas.each do |linea|
                 system("adduser #{posicion[0]}")
                 puts "Se ha creado el usuario #{posicion[0]}"
             
-            elseif posicion[4] == "delete"
-                system("deluser #{posicion[0]}")
+            else if posicion[4] == "delete"
+                system("userdel -f #{posicion[0]}")
                 puts "Se ha eliminado el usuario #{posicion[0]}"
             end
-            
+        end
 	end
-	
-    end
-    
 end
