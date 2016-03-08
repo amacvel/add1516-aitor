@@ -2,29 +2,35 @@
 # encoding: utf-8
 # Autor: Aitor Domingo Machado Velázquez
 
-user = `whoami`
-puts user
+user=`whoami`
 
+if user != "root\n"
+	puts "No eres el usuario administrador, así que no podrás ejecutar este script."
+	exit
+end
 
-if user == "root"
-    users = `cat userslist.txt`
-    userslist = users.split("/n")
+archivo=`cat userslist.txt`
+filas=archivo.split("\n")
    
-    userslist.each do |usu|
-        a = usu.split(":")
-       
-        nombre = a[0]
-        apellido = a[1]
-        email = a[2]
-        action = a[3]
-       
-        if action == "delete"
-            puts "deluser -f -r #{a[0]}"
-        end
-       
-        if action == "add"
-            puts "adduser #{a[0]}"
-        end
-    end
-   
+filas.each do |linea| 									 
+	posicion=linea.split(":")
+
+    if posicion[2] == ""
+            puts "El usuario #{posicion[0]} no posee ningún email."
+        
+        else
+        
+            if posicion[4] == "add"
+                system("adduser #{posicion[0]}")
+                puts "Se ha creado el usuario #{posicion[0]}"
+            
+            elseif posicion[4] == "delete"
+                system("deluser #{posicion[0]}")
+                puts "Se ha eliminado el usuario #{posicion[0]}"
+            end
+            
+		end
+		
+	end
+	
 end
