@@ -1,0 +1,4 @@
+aitor:machado:aitor-g-bta@hotmail.com:27-05-1995:add
+javier:perez:javier@hotmail.com:28-04-1995:add
+rosa:martinez:rosa@hotmail.com:26-02-1995:delete
+juana:velazquez:juana@hotmail.com:25-03-1995:delete
