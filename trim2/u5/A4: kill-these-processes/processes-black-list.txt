@@ -1,0 +1,4 @@
+firefox:kill
+geany:notify
+gedit:notify
+leafpad:kill
